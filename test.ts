@@ -6,11 +6,14 @@ test("Testeo la clase User", (t) => {
 
   t.is(user.name, "marce");
 });
+
 test("Testeo la clase Product y sus métodos", (t) => {
   const user = new User("marce");
-  const producto = new Product("termo", 500);
+  const producto = new Product(6, "termo", 500);
   const productosNoTanCaros = Product.findProductsBelow(250);
 
+  console.log(`productosNoTanCaros: ${productosNoTanCaros}`);
+  
   user.addProduct(producto);
   user.addProducts(productosNoTanCaros);
 
