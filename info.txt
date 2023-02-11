@@ -1,0 +1,4 @@
+- Los cambios son parte del pull request. Por cada pull request existen commits, es decir, por cada push se actualizan los pull request con los commits realizados en git local.
+- Si me arrepiento de realizar cambios: 
+
+ESTA LINEA VA DESAPARECER
